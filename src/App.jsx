@@ -28,7 +28,7 @@ function App() {
   }
 
   return (
-    <div className="App p-10">
+    <div className="App p-10 bg-blue-400">
       {isValid ? (
         <div><div>
           <h2>Enter the OTP received on {number}</h2>
